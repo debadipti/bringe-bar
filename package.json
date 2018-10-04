@@ -1,0 +1,15 @@
+{
+  "name": "bringe-bar",
+  "version": "1.0.0",
+  "description": "a fictional bar website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://debadipti.github.io/bringe-bar",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

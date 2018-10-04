@@ -1,0 +1,312 @@
+/* Navbar */
+
+body {
+  background-color: #f7f7f7;
+}
+
+nav {
+  border-bottom: 1px solid #dedede;
+  background-color: #ffffff;
+}
+/* 
+.navbar {
+  height: 100px;
+} */
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.navbar .row {
+  padding: 1em 0;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.logo h2,
+.main-menu li {
+  text-transform: lowercase;
+}
+
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 1.2em;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  padding: 10px 16px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: #555;
+}
+
+.button {
+  border-radius: 100px;
+  margin: 1em;
+}
+
+.main-content {
+  padding: 6em 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.main-content p {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 13px;
+  letter-spacing: 0.2rem;
+}
+
+.showcase {
+  text-align: center;
+  background-image: url("../images/bar.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.showcase .container {
+  padding: 60px;
+}
+
+.showcase h5,
+.showcase p {
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  padding: 10px;
+}
+
+.showcase p {
+  margin: 0;
+}
+
+.showcase i {
+  color: #fff;
+  font-size: 60px;
+}
+
+.features {
+  padding: 60px 0;
+  background-image: url("../images/bar.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 60px 0 0 0;
+}
+
+.features ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.features ul li {
+  padding: 5px 0;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.features h4 {
+  font-size: 20px;
+  margin-left: 30px;
+  display: inline;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  padding-bottom: 6px;
+}
+
+.features h2 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0;
+  padding: 22px;
+  letter-spacing: 0.4rem;
+}
+
+.features i {
+  border: 2px solid;
+  padding: 10px;
+}
+
+.offer {
+  padding: 60px 0;
+}
+
+.thumbnail {
+  border: 1px solid #eeeeee;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.thumbnail p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 10px 0 0;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.beer-showcase .row {
+  margin-bottom: 20px;
+}
+
+.beer-showcase-button {
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 100%;
+  transition: 0.5s;
+  filter: grayscale(70%);
+}
+
+.thumbnail img:hover {
+  filter: grayscale(0);
+}
+
+.order {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.order h2 {
+  text-align: center;
+  padding: 0 0 40px;
+}
+
+.order select {
+  color: #777;
+}
+
+label {
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.order-button {
+  text-align: center;
+}
+
+.order-button a {
+  margin-top: 2em;
+}
+
+.footer {
+  padding: 60px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.footer ul {
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.copyright {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.copyright h2 {
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.copyright h2 a {
+  color: #000000;
+}
+
+/* Media Queries */
+
+@media (max-width: 480px) {
+  .navbar .six {
+    display: none;
+  }
+
+  .navbar .logo.columns {
+    width: 60%;
+  }
+
+  .navbar .logo.columns h2 {
+    padding-top: 0.1em;
+  }
+
+  .navbar .three {
+    width: 40%;
+  }
+
+  .main-content {
+    padding: 3em 0;
+  }
+
+  .main-content h2 {
+    font-size: 2em;
+  }
+
+  .main-content .button {
+    font-size: 9px;
+  }
+
+  .showcase .one-third {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .showcase .one-third p {
+    display: none;
+  }
+
+  .showcase i {
+    font-size: 2em;
+  }
+
+  .showcase h5 {
+    margin: 0;
+  }
+
+  .showcase .container {
+    padding: 60px 0 50px;
+  }
+
+  .features h4 {
+    font-size: 18px;
+  }
+
+  .features h2 {
+    font-size: 1.5em;
+  }
+
+  .order-button .button {
+    margin: 0;
+  }
+}

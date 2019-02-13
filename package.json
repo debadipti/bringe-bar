@@ -4,12 +4,16 @@
   "description": "a fictional bar website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "node-sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "",
   "license": "MIT",
   "homepage": "https://debadipti.github.io/bringe-bar",
   "dependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
   }
 }
